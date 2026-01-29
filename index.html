@@ -18,11 +18,17 @@
     <header class="header">
         <div class="header-container">
             <h1 class="logo">ATELIER DE PAN MARCHE</h1>
-            <nav class="nav">
+            <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="nav">
                 <ul>
                     <li><a href="#about">こだわり</a></li>
-                    <li><a href="#products">商品紹介</a></li>
-                    <li><a href="#shop-info">店舗情報</a></li>
+                    <li><a href="#story">想い</a></li>
+                    <li><a href="#products">商品</a></li>
+                    <li><a href="#shop-info">店舗</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,10 +36,161 @@
 
     <main>
         <section class="hero">
+            <div class="hero-image-wrapper">
+                <img src="img/hero-section.jpg" alt="職人の手仕事">
+            </div>
             <div class="hero-content">
-                <div class="hero-text">
-                    <p class="hero-subtitle">水は一切使用しない。</p>
-                    <h2 class="hero-title">牛乳と生クリームが奏でる、<br>家族の想いをつなぐパン。</h2>
+                <div class="hero-text-vertical">
+                    <h2 class="vertical-line hero-title">想いをつなぐ<br>市場のパン</h2>
+                    <p class="vertical-line hero-subtitle">水は、一切使わない。</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="about">
+            <div class="container">
+                <span class="section-label">COMMITMENT</span>
+                <h3 class="section-title">私たちのこだわり</h3>
+                <div class="about-flex">
+                    <div class="about-image">
+                        <img src="img/commitment.jpg" alt="こだわりの食パン">
+                    </div>
+                    <div class="about-text">
+                        <div class="pc-only">
+                            <p class="highlight-text">
+                                水を一切使用せず牛乳と生クリームだけで練り上げる
+                            </p>
+                            <p class="description">
+                                「ATELIER DE PAN
+                                MARCHE（市場のパン工房マルシェ）」のパンは、その配合からして特別です。一切の水を使わず、厳選された牛乳と芳醇な生クリームのみで仕上げる贅沢な製法。<br>一口食べれば、ミルクの甘みとコクが優しく広がります。
+                            </p>
+                            <p class="description">
+                                私たちは、この高級パンならではのクオリティを、日常の食卓で楽しんでいただきたいと考えています。<br>贅沢な素材を使いながらも、毎日無理なく続けられるお手頃な価格。<br>それも私たちの大きなこだわりです。
+                            </p>
+                        </div>
+                        <div class="sp-only">
+                            <p class="highlight-text">
+                                水を一切使用せず<br>牛乳と生クリームだけで練り上げる
+                            </p>
+                            <p class="description">
+                                「ATELIER DE PAN MARCHE<br>（市場のパン工房マルシェ）」のパンは<br>その配合からして特別です
+                            </p>
+                            <p class="description">
+                                一切の水を使わず厳選された牛乳と<br>芳醇な生クリームのみで<br>仕上げる贅沢な製法<br>一口食べればミルクの甘みとコクが<br>優しく広がります
+                            </p>
+                            <p class="description">
+                                私たちは、この高級パンならではのクオリティを<br>日常の食卓で楽しんでいただきたいと考えています
+                            </p>
+                            <p class="description">
+                                贅沢な素材を使いながらも<br>毎日無理なく続けられるお手頃な価格<br>それも私たちの大きなこだわりです
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="story">
+            <div class="container">
+                <span class="section-label">STORY</span>
+                <h3 class="section-title">想いを受け継ぐ</h3>
+                <div class="story-flex reverse">
+                    <div class="story-image">
+                        <img src="img/story.jpg" alt="鎌倉の風景">
+                    </div>
+                    <div class="story-text">
+                        <div class="pc-only">
+                            <p class="highlight-text">
+                                「良い会社が、時代の流れの中で静かに幕を下ろしてしまう――それはあまりにも惜しい。」
+                            </p>
+                            <p class="description">
+                                そんな想いを原点に、事業を引き継ぐかたちで鎌倉てとら合同会社は誕生しました。その歩みは、単なる新規創業ではなく想いと味を未来へとつなぐための決断でした。
+                            </p>
+                            <p class="description">
+                                前身となるのは、父が鎌倉の地で営んできたカフェ「鎌倉てとら」。<br>長年親しまれてきたその味と空気感は、多くの人の記憶に残るものでした。そしてもう一つ、大切に受け継ぎたかったのが、母が心を込めて焼き上げるパンの味です。
+                            </p>
+                            <p class="highlight-text">
+                                「この味を、もう一度届けたい」
+                            </p>
+                            <p class="description">
+                                家族の想いが詰まったものを次の世代へ残したい。その想いが形となり、市場のパン工房マルシェは誕生しました。人の手の温もりを大切にしながら、これからも変わらぬ味と真心を届けてまいります。
+                            </p>
+                        </div>
+                        <div class="sp-only">
+                            <p class="highlight-text">
+                                「良い会社が、時代の流れの中で<br>静かに幕を下ろしてしまう――<br>それはあまりにも惜しい」
+                            </p>
+                            <p class="description">
+                                そんな想いを原点に、<br>事業を引き継ぐかたちで<br>鎌倉てとら合同会社は誕生しました
+                            </p>
+                            <p class="description">
+                                その歩みは、単なる新規創業ではなく<br>想いと味を未来へとつなぐための決断でした
+                            </p>
+                            <p class="description">
+                                前身となるのは、父が鎌倉の地で<br>営んできたカフェ「鎌倉てとら」。<br>長年親しまれたその味と空気感は<br>多くの人の記憶に残るものでした。
+                            </p>
+                            <p class="description">
+                                そしてもう一つ大切に受け継ぎたかったのが<br>母が心を込めて焼き上げるパンの味です
+                            </p>
+                            <p class="highlight-text">
+                                「この味を、もう一度届けたい」
+                            </p>
+                            <p class="description">
+                                家族の想いが詰まったものを<br>次の世代へ残したい。<br>その想いが形となり、<br>市場のパン工房マルシェは誕生しました
+                            </p>
+                            <p class="description">
+                                人の手の温もりを大切にしながら、<br>これからも変わらぬ味と真心を届けてまいります。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brand-video-section">
+            <div class="container">
+                <span class="section-label">CRAFTMANSHIP</span>
+                <h3 class="section-title">手から手へ、想いをこめて</h3>
+                <div class="video-container">
+                    <video src="img/brand-video.mp4" autoplay loop muted playsinline
+                        poster="img/hero-section.jpg"></video>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <span class="section-label">PRODUCTS</span>
+                <h3 class="section-title">おすすめの商品</h3>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="img/product-shokupan.jpg" alt="食パン 1.5斤">
+                        </div>
+                        <div class="product-info">
+                            <h4>濃厚リッチ食パン</h4>
+                            <p>牛乳と生クリームだけで贅沢に仕上げました。</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="img/product-pieshoe.jpg" alt="鎌倉パイシュー">
+                        </div>
+                        <div class="product-info">
+                            <h4>鎌倉パイシュー</h4>
+                            <p>サクサクのパイ生地に濃厚クリームがたっぷり。</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="img/product-seasonal.jpg" alt="工房の風景">
+                        </div>
+                        <div class="product-info">
+                            <h4>季節のパン</h4>
+                            <p>旬の素材を活かした期間限定の味わいです。</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -42,88 +199,32 @@
             <h3 class="instagram-title">Instagram</h3>
             <div class="instagram-carousel">
                 <div class="carousel-track">
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 1"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 2"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1589367920969-ab8e050bcc3b?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 3"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 4"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 5"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 1 clone"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 2 clone"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1589367920969-ab8e050bcc3b?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 3 clone"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 4 clone"></div>
-                    <div class="slide"><img
-                            src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800&auto=format&fit=crop"
-                            alt="Instagram 5 clone"></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-1.jpg" alt="Instagram 1"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-2.jpg" alt="Instagram 2"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-3.jpg" alt="Instagram 3"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-4.jpg" alt="Instagram 4"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-5.jpg" alt="Instagram 5"></a></div>
+                    <!-- Duplicate slides for infinite loop -->
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-1.jpg" alt="Instagram 1"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-2.jpg" alt="Instagram 2"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-3.jpg" alt="Instagram 3"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-4.jpg" alt="Instagram 4"></a></div>
+                    <div class="slide"><a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                            class="instagram-link"><img src="img/instagram-5.jpg" alt="Instagram 5"></a></div>
                 </div>
             </div>
-        </section>
-
-        <section id="about" class="about">
-            <div class="container">
-                <div class="about-flex">
-                    <div class="about-image">
-                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1000&auto=format&fit=crop"
-                            alt="こだわりのパン">
-                    </div>
-                    <div class="about-text">
-                        <span class="section-label">ABOUT US</span>
-                        <h3 class="section-title">私たちのこだわり</h3>
-                        <p class="description">
-                            「ATELIER DE PAN MARCHE（アトリエ ドゥ パン
-                            マルシェ）」のパンは、水を一滴も使わず、牛乳と生クリームのみで練り上げる贅沢な製法から生まれます。口に含んだ瞬間に広がる濃厚なコクと、とろけるような食感。それは、高級パンの品質でありながら、毎日食卓に並べられる優しさを追求した答えです。
-                        </p>
-                        <p class="description">
-                            私たちの原点は、鎌倉で父が営んでいたカフェ「鎌倉てとら」の味と、母が焼いていたパンの香りにあります。「あの懐かしく温かい味を、もう一度届けたい」「家族の想いが詰まったものを次の世代へ残したい」。そんな真心から生まれた、市場の中の小さな工房です。
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="products" class="products">
-            <div class="container">
-                <span class="section-label">PRODUCTS</span>
-                <h3 class="section-title">人気商品</h3>
-                <div class="product-grid">
-                    <div class="product-card">
-                        <div class="product-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1621236304198-6515855f2f1c?q=80&w=800&auto=format&fit=crop"
-                                alt="鎌倉パイシュー">
-                        </div>
-                        <div class="product-info">
-                            <h4>鎌倉パイシュー</h4>
-                            <p>自家製生カスタードクリームをあふれんばかりに詰め込んだ、自慢の一品です。</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="product-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=800&auto=format&fit=crop"
-                                alt="生ドーナツ">
-                        </div>
-                        <div class="product-info">
-                            <h4>生ドーナツ <small>（土日限定）</small></h4>
-                            <p>口の中でほどける新食感。週末だけの特別な味わいをお楽しみください。</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="instagram-cta">
+                <a href="https://www.instagram.com/atelier_de_pain_marche/" target="_blank"
+                    class="btn-instagram">Instagramをフォローする</a>
             </div>
         </section>
 
@@ -153,9 +254,17 @@
                             <tr>
                                 <th>アクセス</th>
                                 <td>
-                                    横浜シーサイドライン「南部市場駅」から徒歩2分（150m）<br>
-                                    JR「新杉田駅」から徒歩20分、またはシーサイドライン乗り換え2分<br>
-                                    ※駐車場：ブランチ南部市場の駐車場をご利用いただけます。
+                                    <div class="pc-only">
+                                        横浜シーサイドライン「南部市場駅」から徒歩2分（150m）<br>
+                                        JR「新杉田駅」から徒歩20分、またはシーサイドライン乗り換え2分<br>
+                                        ※駐車場：ブランチ南部市場の駐車場をご利用いただけます
+                                    </div>
+                                    <div class="sp-only map-wrapper">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832758.7618536453!2d138.51295423125!3d35.38135099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601843ec11db812d%3A0x83185c601d65c5a1!2zQVRMSUVSIERFIFBBSU4gTUFSQ0hFIOW4guWgtOOBruODkeODs-W3peaIv-ODnuODq-OCt-OCpw!5e0!3m2!1sja!2sjp!4v1769679232509!5m2!1sja!2sjp"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
                                 </td>
                             </tr>
                         </table>
@@ -168,9 +277,33 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-logo">ATELIER DE PAN MARCHE</div>
+            <div class="footer-links">
+                <a href="https://share.google/xkrcg3jmb6dtaOUkr" target="_blank" rel="noopener noreferrer">店舗位置はこちら</a>
+                <a href="https://www.instagram.com/atelier_de_pain_marche/?hl=ja" target="_blank"
+                    rel="noopener noreferrer">Instagram</a>
+            </div>
             <p class="copyright">&copy; 2026 ATELIER DE PAN MARCHE All Rights Reserved.</p>
         </div>
     </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
+        const navLinks = document.querySelectorAll('.nav a');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+            document.body.style.overflow = nav.classList.contains('is-active') ? 'hidden' : '';
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('is-active');
+                nav.classList.remove('is-active');
+                document.body.style.overflow = '';
+            });
+        });
+    </script>
 </body>
 
 </html>
